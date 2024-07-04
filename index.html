@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-------------fonts that imported from google font ------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------------------------------->
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie seat BOOking</title>
+  </head>
+  <body>
+    <div class="movie-continer">
+      <label>pick up Movie</label>
+      <select id="movie">
+        <option value="10">Mastani ($10)</option>
+        <option value="12">EK VELIINE ($12)</option>
+        <option value="9">Marjawan ($9)</option>
+        <option value="8">Sajan ($8)</option>
+      </select>
+    </div>
+
+    <ul class="showCase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+
+      <li>
+        <div class="seat ocipaid"></div>
+        <small>ocipaid</small>
+      </li>
+    </ul>
+
+    <div class="continer">
+      <div class="screen"></div>
+      <!------------------------->
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <!-------------------------->
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <!--------------------------->
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat ocipaid"></div>
+      </div>
+      <!---------------------------->
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <!------------------------------>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <!----------------------------->
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat ocipaid"></div>
+        <div class="seat"></div>
+      </div>
+      <!---------------------------->
+    </div>
+
+    <p class="text">
+      You have select <span id="count">0</span> seates for a price of $<span
+        id="total"
+        >0</span
+      >
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
